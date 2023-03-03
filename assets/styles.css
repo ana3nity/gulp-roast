@@ -32,6 +32,7 @@ body {
     background-color: #082B59;
     font-size: 20px;
     text-decoration: none;
+    list-style-type: none;
   }
   
   #nav-list li a:hover {
@@ -48,7 +49,7 @@ body {
   /* <!--BODY CONTENT--> */
   main {
     color: #131D26;
-    padding: 4% 24% 4% 24%;
+    padding: 4% 20% 4% 20%;
     background-color: #F2F2F2;
     flex-basis: 50%;
     display: flex;
@@ -105,14 +106,14 @@ body {
   .card {
     border-radius: 20px;
     background: #59331D;
-    width: 15rem;
+    width: 20rem;
   }
   
-  #coffee-image {
+  #coffee-image-vertical {
     border-radius: 20px 20px 0px 0px;
     object-fit: cover;
+    height: 45vh;
     width: 100%;
-    height: 70vh;
   }
   
   .caption {
@@ -125,27 +126,68 @@ body {
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    color: #808080;
+    color: #C4A484;
+    text-decoration: none;
   }
   
   /* <!--BREAKPOINT--> */
   
   @media (max-width: 1000px) {
   main {
-    display: grid;
+    display: flex;
+    flex-direction: row;
     grid-template-columns: repeat(2, 1fr);
     gap: 2rem;
    }
   }
+
+  @media (max-width: 992px) {
+    aside {
+      margin:auto;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+      text-align: center;
+     }
+    .card {
+      width: 100%;
+    }
+    }
+
+  @media (max-width: 768px) {
+    aside {
+      margin:auto;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 2rem;
+      text-align: center;
+    }
+    .card {
+      width: 100%;
+    }
+    }
   
   @media (max-width: 600px) {
-  main {
-    display: grid;
+    aside {
+      margin:auto;
+    }
+    main {
+    display: flex;
+    flex-direction: column;
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     }
     .about {
       text-align: center;
+    }
+    .card {
+      width: 100%;
     }
   }
   
