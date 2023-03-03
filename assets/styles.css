@@ -171,6 +171,9 @@ body {
     .card {
       width: 100%;
     }
+   #nav-list {
+    justify-content: center;
+  }
     }
   
   @media (max-width: 600px) {
@@ -189,6 +192,9 @@ body {
     .card {
       width: 100%;
     }
+  #nav-list {
+    justify-content: center;
+  }
   }
   
   /* <!--FOOTER--> */
