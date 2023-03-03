@@ -192,9 +192,19 @@ body {
     .card {
       width: 100%;
     }
-  #nav-list {
-    justify-content: center;
-  }
+    #nav-list {
+      display: block;
+    }
+    #nav-list li {
+      text-align: center;
+      margin-top: 2rem;
+    }
+    #nav-list li:hover {
+      background: #131D26;
+      padding: 1rem;
+      transition: 0.5s;
+      border-radius: 10px;
+    }
   }
   
   /* <!--FOOTER--> */
