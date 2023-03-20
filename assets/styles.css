@@ -135,7 +135,7 @@ body {
   
 #beans-border {
   background-image: url("gulp-bottom-beans.jpg");
-  background-repeat: repeat-x;
+  width: 100%;
 }
 
   /* <!--BREAKPOINT--> */
@@ -179,12 +179,10 @@ body {
     .card {
       width: 100%;
     }
-<<<<<<< HEAD
-=======
+
    #nav-list {
     justify-content: center;
   }
->>>>>>> e4cf3c179eaa9b0299b39a610ad73276462f74eb
     }
   
   @media (max-width: 600px) {
