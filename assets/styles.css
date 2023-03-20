@@ -130,6 +130,11 @@ body {
     text-decoration: none;
   }
   
+#beans-border {
+  background-image: url("./assets/media/gulp-bottom-beans.jpg");
+  background-repeat: repeat-x;
+}
+
   /* <!--BREAKPOINT--> */
   
   @media (max-width: 1000px) {
