@@ -1,6 +1,3 @@
-/* see the brand guide for colors, fonts, and images in CodePen: 
-https://docs.google.com/document/d/13de5zlWmnox1BbZOiKo1p7tsirkgv0IQLG_bg1R60uE/edit?usp=sharing */
-
 body {
     font-family: 'Lato', sans-serif;
   }
@@ -129,6 +126,12 @@ body {
     color: #C4A484;
     text-decoration: none;
   }
+
+  #beans-border {
+    background-image: url("gulp-bottom-beans.jpg");
+    background-repeat: repeat-x;
+    width: 100%;
+  }
   
 #beans-border {
   background-image: url("gulp-bottom-beans.jpg");
@@ -176,9 +179,12 @@ body {
     .card {
       width: 100%;
     }
+<<<<<<< HEAD
+=======
    #nav-list {
     justify-content: center;
   }
+>>>>>>> e4cf3c179eaa9b0299b39a610ad73276462f74eb
     }
   
   @media (max-width: 600px) {
@@ -229,3 +235,4 @@ body {
     background-color: #122B56;
     color: #808080;
   }
+
